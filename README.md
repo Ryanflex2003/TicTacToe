@@ -21,9 +21,9 @@
 ##### Write tests for functions validating results are intended
 
 ## Example 1    
-    [[0,0,1],
-    [0,1,2],
-    [2,1,0]]
+    [[1,2,1],
+    [2,1,2],
+    [2,1,2]]
 #### Returns 0
 
 ## Example 2
