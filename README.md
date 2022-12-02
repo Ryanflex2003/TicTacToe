@@ -20,14 +20,26 @@
 
 ##### Write tests for functions validating results are intended
 
-## Example 1    
+## Example 1 (X wins)
+    [[1,1,1],
+    [1,2,2],
+    [2,0,0]]
+#### Returns 1
+
+## Example 2 (O wins)
+    [[1,2,2],
+    [2,1,2],
+    [2,1,2]]
+#### Returns 2
+
+## Example 3 (cat's game)
     [[1,2,1],
     [2,1,2],
     [2,1,2]]
 #### Returns 0
 
-## Example 2
-    [[1,1,1],
-    [1,2,2],
-    [2,0,0]]
-#### Returns 1
+## Example 4 (Unsolved)
+    [[1,0,0],
+    [2,2,1],
+    [2,0,1]]
+#### Returns -1
